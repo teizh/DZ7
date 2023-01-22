@@ -9,7 +9,6 @@ public class Main {
             ((Hero) heroes[i]).applySuperAbility();
             if (heroes[i] instanceof Medic) {
                 ((Medic) heroes[i]).increaseExpirience();
-                System.out.println("Герой Medic получил опыт!");
             }
 
         }
